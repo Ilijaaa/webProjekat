@@ -1,0 +1,231 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+#mainHeader
+{
+	position: relative;
+	height: 700px;
+	width: 100%;
+	
+}
+#mainHeader img
+{
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	z-index: -1;
+	display:;
+}
+
+#mainHeaderContainer
+{
+	position: absolute;
+	width: 73%;
+	right: 13.5%;
+	height: 700pxp;
+}
+
+#mainLogo
+{
+	position: absolute;
+	top: 270px;
+	height: 160px;
+	width: 15%;
+	background-color: none;
+	border: 2px solid black;
+	align-content: center;
+}
+
+#mainLogo img
+{
+	width: 100%;
+}
+
+#headerInfo
+{
+	position: absolute;	
+	top: 250px;
+	right: 27.5%;
+	margin: 0 auto;
+	width: 40%;
+	height: 200px;
+	color: black;
+	text-align: center;
+}
+
+#headerInfo h1
+{
+	position: relative;
+	top: 50px;
+}
+
+#headerInfo h2
+{
+	position: relative;
+	top: 60px;
+}
+
+body
+{
+	align-content: center;
+}
+
+.navBarDiv
+{
+	position: relative;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+	margin: auto
+	
+}
+.mainNavBar
+{
+	position: relative;
+	top: 5px;
+	z-index: 100;
+}
+.mainNavBar div
+{
+	position: relative;
+	padding: 0;
+	height: 46px;
+	width: 100%;
+	
+}
+
+.mainNavBarOl
+{
+	position: relative;
+	display: inline-block;
+	list-style-type: none; 
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	left: 9.3%;
+	border-radius: 10px;
+
+}
+
+.mainNavBar li
+{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin-right: 2px;
+}
+#reg
+{
+	position: relative;
+	display: inline-block;
+	right: 0px;
+	
+
+}
+#log
+{
+	position: relative;
+	right: 0px;
+	display: inline-block;
+	
+}
+.mainNavBar li a
+{
+	width: 100px;
+	height: 18px;
+	display:  inline-block;
+	background-color: lightblue;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 10px;
+	
+
+	
+	
+}
+
+.mainNavBar li a:hover
+{
+	background-color: blue;
+}
+
+.mainContainer
+{
+	position: relative;
+	width: 72%;
+	height: 900px;
+	border: 2px solid black;
+	margin: auto;
+	box-sizing: border-box;
+	
+	
+}
+
+.leftArea
+{
+	position: absolute;
+	top: 55px;
+	left: 5px;
+	height: 600px;
+	width: 19%;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.mainArea
+{
+	margin: 9px auto 0 auto;
+	height: 900px;
+	width: 60%;
+	border: 2px solid black;
+	box-sizing: border-box;
+	
+}
+
+.horizontal
+{
+	height: 150px;
+	background-color: chartreuse;
+	box-sizing: border-box;
+}
+
+.vertical
+{
+	height: 150px;
+	width: 49.6%;
+	background-color: darkcyan;
+	display: inline-block;
+	box-sizing:border-box;
+}
+
+.rightArea
+{
+	position: absolute;
+	top: 55px;
+	right: 5px;
+	height: 600px;
+	width: 19%;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+
+footer
+{
+	position: relative 0;
+	display: block;
+	height: 400px;
+	width: 100vw;
+	background-color: rgb(50,50,255);
+	position: relative;
+	bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+
+
+}

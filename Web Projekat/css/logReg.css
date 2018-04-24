@@ -1,0 +1,111 @@
+
+.registrationButton
+{
+	background-color: #333;
+	border-right: 1px solid #bbb;
+	width: 100px;
+	height:46px;
+	color: azure;
+	text-align: center;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	float: right;
+
+}
+#log
+{
+	display: block;
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+}
+
+.registrationButton:hover
+{
+	background-color: #111;
+}
+
+
+#formContainerReg
+{
+	position: relative;
+	top: 50px;
+	background-color: grey;
+	border: solid black 3px;
+	width: 300px;
+	margin: 0px auto;
+	opacity: 0.69;
+	font-weight: bold;
+	border-radius: 15px;
+
+	 
+}
+#formContainerReg button
+{
+	float: right;
+	display: block;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	width: 50px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+#formContainerLog
+{	
+	position: relative;
+	background-color: grey;
+	border: solid black 3px;
+	width: 300px;
+	margin: 0 auto;
+	opacity: 0.69;
+	font-weight: bold;
+	border-radius: 15px;
+	
+	 
+}
+
+#formContainerLog button
+{
+	float: right;
+	display: block;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	width: 50px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+form
+{
+	padding: 50px;
+}
+
+label
+{
+	color: black;
+	margin: 10px 0 0 0;
+}
+
+input
+{
+	display: block;
+	border-radius: 5px;
+	margin: 10px 0 0 0;
+}
+select
+{
+	margin: 10px 0 0 0;
+}
+.log 
+{
+	border-right: 1px solid #bbb;
+}
